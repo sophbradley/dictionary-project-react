@@ -56,7 +56,7 @@ export default function Dictionary(props) {
               defaultValue={props.defaultSearchTerm}
             />
           </form>
-          <div className="hint">Hint: sunset, yoga, cats, beach...</div>
+          <div className="hint">For example: sunset, yoga, cats, Hawaii...</div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />
