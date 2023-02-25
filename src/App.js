@@ -5,10 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h1>Dictionary</h1>
-        </header>
-        <Dictionary />
+        <Dictionary defaultSearchTerm="sunset" />
         <footer className="mt-5 mb-5">
           <a
             href="https://github.com/sophbradley/dictionary-project-react"

@@ -1,3 +1,9 @@
 .Meaning {
   text-align: left;
+  color: rgb(148, 148, 150);
+}
+
+.Meaning h4 {
+  font-weight: bold;
+  color: rgb(129, 129, 131);
 }
