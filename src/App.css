@@ -2,6 +2,12 @@ body {
   background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 
+header {
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
 section {
   background-color: white;
   max-width: 800px;

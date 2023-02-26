@@ -1,11 +1,15 @@
 import "./App.css";
 import Dictionary from "./Dictionary.js";
+import logo from "./assets/logo-no-background.png";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Dictionary defaultSearchTerm="sunset" />
+        <header className="logo">
+          <img src={logo} alt="developer logo" width="30px" height="30px" />
+        </header>
+        <Dictionary defaultSearchTerm="dictionary" />
         <footer className="mt-5 mb-5">
           <a
             href="https://github.com/sophbradley/dictionary-project-react"
